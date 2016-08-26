@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#FFF">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:background="#CDE1F0"
+        android:hint="YOUR TEXT WILL APPEAR SHORTLY"
+        android:maxLines="14"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#050505" 
+       />
+
+    <Button
+        android:id="@+id/fromEqnCam"
+        android:background="@drawable/button"
+        style="@style/BUttonstyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="26dp"
+        android:layout_marginLeft="66dp"
+        android:layout_weight="0.42"
+        android:text="SAVE" />
+
+    <Button
+        android:id="@+id/fromEqnFile"
+        android:background="@drawable/button"
+        style="@style/BUttonstyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/fromEqnCam"
+        android:layout_alignBottom="@+id/fromEqnCam"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="64dp"
+        android:text="OPEN" />
+
+</RelativeLayout>
